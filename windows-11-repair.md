@@ -20,10 +20,10 @@
 
 ```mermaid
 graph TD;
-    A[Testar armazenamento de componentes]<|>|B(ScanHealth);
-    B --> C[RestoreHealth];
-    C --> D[sfc /scannow];
-    D --> E[Reiniciar PC];
+    A[Testar armazenamento de componentes] --> B(ScanHealth)
+    B --> C[RestoreHealth]
+    C --> D[sfc /scannow]
+    D --> E[Reiniciar PC]
     style A fill:#DDF,stroke:#00F,stroke-width:1px
     style B fill:#DDF,stroke:#00F,stroke-width:1px
     style C fill:#BDF,stroke:#00F,stroke-width:1px
